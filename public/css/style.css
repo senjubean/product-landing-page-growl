@@ -1,0 +1,50 @@
+body {
+
+    color: #4b507a;
+    font-family: 'Raleway',
+        sans-serif;
+    font: 1rem;
+
+
+}
+a {
+    text-decoration: none;
+}
+
+
+.background-vanta {
+    height: 1000px;
+}
+
+.navbar {
+   
+    padding: 3rem 8rem !important;
+  
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+}
+
+.btn-outline-dark {
+    color: white;
+    border-color: white;
+}
+.btn-outline-dark:hover {
+    color: black;
+    background-color: white;
+    border-color: #343a40;
+}
+
+.intro 
+{
+    width: 60%;
+    margin:4rem;
+    padding: 4rem 4rem;
+}
+#introPara {
+ font-family: 'Roboto',
+ sans-serif;
+ font-size: 4rem;
+ color:rgb(245, 255, 211);
+}

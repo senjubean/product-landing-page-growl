@@ -1,0 +1,94 @@
+
+
+body {
+ 
+  color: #4b507a;
+  font-family: 'Raleway',
+  sans-serif;
+  font: 1rem;
+  
+
+}
+
+.container {
+  padding:0rem 5rem;
+display:flow-root;
+background-color: rgb(16, 16, 54);
+}
+
+.brand {
+  float: left;
+  
+  
+}
+
+.rightBar {
+ 
+  float: right;
+}
+
+
+button, a {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: .2rem;
+  padding: .5rem;
+  /* box-shadow: inset 0 0 0 1px #f45e61; */
+  color: rgb(184, 184, 184);
+  font-size: inherit;
+  font-weight: 400;
+  position: relative;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+button::before, button::after, a::before, a::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.draw {
+  transition: color 0.25s;
+}
+.draw::before, .draw::after {
+  border: 1px solid transparent;
+  width: 0;
+  height: 0;
+}
+.draw::before {
+  top: 0;
+  left: 0;
+}
+.draw::after {
+  bottom: 0;
+  right: 0;
+}
+.draw:hover {
+  color: white;
+}
+.draw:hover::before, .draw:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.draw:hover::after {
+  border-top-color:whitesmoke;
+  border-right-color: whitesmoke;
+  transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+.draw:hover::before {
+  border-bottom-color: whitesmoke;
+  border-left-color: whitesmoke;
+  transition: border-color 0s ease-out .3s, height 0.15s ease-out .3s, width 0.15s ease-out .45s;
+}
+
+
+
+
+
+
+/*# sourceMappingURL=borderAnimation.css.map */
