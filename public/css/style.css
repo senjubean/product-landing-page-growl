@@ -23,6 +23,7 @@ a {
 }
 
 .navbar-dark .navbar-nav .nav-link {
+    padding: 0px !important;
     color: rgba(255, 255, 255);
 }
 
@@ -47,4 +48,37 @@ a {
  sans-serif;
  font-size: 4rem;
  color:rgb(245, 255, 211);
+}
+
+/* underline transition */
+a {
+    color: #e5d4c4;
+    text-decoration: none;
+    position: relative
+}
+
+.navbar-item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #e5d4c4;
+    transition: transform .8s cubic-bezier(.9, 0, .1, 1);
+    transition: transform .8s cubic-bezier(.9, 0, .1, 1), -webkit-transform .8s cubic-bezier(.9, 0, .1, 1);
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: translate3d(0, 0, 0) scaleX(0);
+    transform: translate3d(0, 0, 0) scaleX(0)
+}
+
+a:hover::after {
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+    transform: translate3d(0, 0, 0) scaleX(1)
 }
