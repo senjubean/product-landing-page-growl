@@ -22,6 +22,10 @@ a {
   
 }
 
+/* .navbar-brand {
+    font-size:2rem;
+} */
+
 .navbar-dark .navbar-nav .nav-link {
     padding: 0px !important;
     color: rgba(255, 255, 255);
@@ -37,17 +41,29 @@ a {
     border-color: #343a40;
 }
 
+.introWrapper {
+     margin:4rem;
+     padding: 4rem 4rem;
+    display:flex; 
+    justify-content: space-between;  
+}
+
 .intro 
 {
     width: 60%;
-    margin:4rem;
-    padding: 4rem 4rem;
+   
 }
-#introPara {
+.introPara {
  font-family: 'Roboto',
  sans-serif;
  font-size: 4rem;
- color:rgb(245, 255, 211);
+ color:rgb(197, 202, 183);
+}
+
+.meshWire {
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
 }
 
 /* underline transition */
@@ -56,6 +72,8 @@ a {
     text-decoration: none;
     position: relative
 }
+
+
 
 .navbar-item a::after {
     content: '';
