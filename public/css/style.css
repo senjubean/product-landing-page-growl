@@ -1,5 +1,7 @@
-body {
 
+body,html {
+     height: 100%;
+     margin: 0;
     color: #4b507a;
     font-family: 'Raleway',
         sans-serif;
@@ -13,7 +15,7 @@ a {
 
 
 .background-vanta {
-    height: 1000px;
+    height: 100%;
 }
 
 .navbar {
@@ -99,4 +101,92 @@ a:hover::after {
     transform-origin: left center;
     -webkit-transform: translate3d(0, 0, 0) scaleX(1);
     transform: translate3d(0, 0, 0) scaleX(1)
+}
+
+.workingWrap{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+   
+
+}
+
+.working, .construction{
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+    width: 50%;
+    
+}
+.workingMedia, .constructionMedia{
+    display:flex;
+    padding: 4rem;
+    background-color: rgb(21, 27, 24);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.constructionWrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    flex-direction: row-reverse;
+
+}
+
+/* 
+.construction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+    width: 50%;
+    
+} */
+
+/* .constructionMedia {
+    display: flex;
+    padding: 4rem;
+    background-color: rgb(28, 34, 32);
+    width: 50%;
+    align-items: center;
+   justify-content: center;
+} */
+
+/* .blue {
+    background-color: blue;
+} */
+
+.hide {
+    visibility: hidden;
+}
+.show {
+    visibility: visible;
+}
+
+.demo {
+    height:100%;
+}
+
+.testimonial {
+    background-color: black;
+    height: 50%;
+}
+
+.aboutUs {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+.contact {
+    height: 50%;
+}
+footer {
+    height: 50%;
 }
