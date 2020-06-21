@@ -58,13 +58,13 @@ a {
 .introPara {
  font-family: 'Roboto',
  sans-serif;
- font-size: 4rem;
+ font-size: 3rem;
  color:rgb(197, 202, 183);
 }
 
 .meshWire {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border: 2px solid white;
 }
 
