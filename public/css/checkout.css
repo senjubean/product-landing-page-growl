@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#f2f2f2;
+     font-family: Raleway;
+}
+
+h3 {
+    text-align: center;
+    
+   
+    padding: .5rem;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+/* h4 {
+    text-align: center;
+} */
+.itempro {
+    float: left;
+}
+
+.qtylabel {
+    float: right;
+}
+.qlabel {
+    position: absolute;
+    z-index: 10;
+}
+
+.qty {
+ position: relative;
+}
+.itemCost {
+    float: right;
+}
+
+.subtotallabel, .shippinglabel, .discountlabel, .totallabel {
+    float: left;
+}
+
+.shippingprice,
+.subtotalprice,
+.discountprice,
+.totalprice {
+    float: right;
+}
