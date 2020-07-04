@@ -13,35 +13,37 @@ h3 {
     border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-/* h4 {
-    text-align: center;
-} */
-.itempro {
-    float: left;
+
+
+h4 {
+    margin-bottom: 1rem;
 }
 
-.qtylabel {
-    float: right;
-}
-.qlabel {
-    position: absolute;
-    z-index: 10;
+img {
+    width: 75px;
+    height: 75px;
 }
 
-.qty {
- position: relative;
-}
-.itemCost {
-    float: right;
-}
-
-.subtotallabel, .shippinglabel, .discountlabel, .totallabel {
-    float: left;
+.itemcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
-.shippingprice,
-.subtotalprice,
-.discountprice,
-.totalprice {
-    float: right;
+.itemprofile {
+    display: flex;
+
+}
+
+.itemlabel {
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: .5rem;
+}
+
+.itemprice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
